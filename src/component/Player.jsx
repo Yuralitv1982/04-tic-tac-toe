@@ -22,7 +22,6 @@ export default function Player({
    }
 
    let editablePlayerName = <span className='player-name'>{playerName}</span>;
-   // let btnCaption = 'Edit'
 
    if (isEditing) {
       editablePlayerName = (
@@ -33,7 +32,6 @@ export default function Player({
             onChange={handleChange}
          />
       );
-      // let btnCaption = 'Save'
    }
 
    return (
